@@ -29,7 +29,7 @@ PC With Cisco Packet Tracer 5.0 Software
 
 
 # PROCEDURE:
-
+```
 STEP 1: Open a Packet Tracer Software.
 STEP 2: Drag two 2900 Switches, two Cisco 1800 Routers, four PC Terminals from tool barand drop it in work area.
 STEP 3: Connect all the PC Terminals and Routers through Switches as shown in the networkdiagram using CAT 6 Patch cables.
@@ -46,9 +46,9 @@ o PC2: 192.168.2.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.2.1
 o PC3: 192.168.3.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.3.1
 o PC4: 192.168.4.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
 o PC5: 192.168.4.3, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
- 
+```
 # PROGRAM
-
+```
 Router0 Configuration Steps
 Click Router 0 and in CLI TYPE THIS Router> enable
 Router# configure terminal Router(config)# interface FastEthernet0/0
@@ -94,7 +94,7 @@ You can also check connectivity between the PCs on different networks to ensure 
 3.	Use the ping command: ping 192.168.3.2
 4.	If everything is configured correctly, you should receive replies from PC3.
 •	Similarly, you can ping between other PCs (e.g., from PC2 to PC5) to verify network connective
- 
+``` 
 # OUTPUT
 
 <img width="1254" height="914" alt="image" src="https://github.com/user-attachments/assets/edbe2e64-20c3-4dbf-a35a-49d0320a00f4" />
